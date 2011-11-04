@@ -49,6 +49,7 @@ package.
 #- source
 %doc %{_texmfdistdir}/source/latex/stack/stack.dtx
 %doc %{_texmfdistdir}/source/latex/stack/stack.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +60,5 @@ package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
