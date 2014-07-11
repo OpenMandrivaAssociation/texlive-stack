@@ -6,7 +6,7 @@
 # catalog-version 1.00
 Name:		texlive-stack
 Version:	1.00
-Release:	7
+Release:	8
 Summary:	Tools to define and use stacks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stack
