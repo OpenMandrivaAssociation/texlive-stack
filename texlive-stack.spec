@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Tools to define and use stacks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/stack
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/stack
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stack.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/stack.source.r%{version}.tar.xz
